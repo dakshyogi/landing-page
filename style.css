@@ -7,7 +7,12 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none ;
+    color: #e5e7eb;
 }
 
 .header {

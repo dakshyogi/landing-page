@@ -132,6 +132,14 @@ ul {
     margin: 0px;
     margin-top: 50px;
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auother {
+    text-align: end;
+    font-weight: bold;
 }
 
 .footer {

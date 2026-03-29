@@ -1,6 +1,4 @@
-* {
-    border: red solid 2px;
-}
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -35,7 +33,7 @@ ul {
 
 .h-main {
     display: flex;
-    flex-direction: row;
+    margin: 50px;
 }
 
 .second, .header-links {
@@ -52,12 +50,17 @@ ul {
 
 .image {
     background-color: #e5e7eb;
-    height: 50px;
+    height: 100px;
     width: 150px;
+    padding: 100px;
     color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 100px;
+    margin-bottom: 50px;
     
 }
 
@@ -72,6 +75,7 @@ ul {
     border-radius: 5px;
     padding: 0;
     border: 1px white solid;
+    margin: 10px;
 }
 
 .sign-up {

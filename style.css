@@ -1,4 +1,6 @@
-
+* {
+    border: red solid 2px;
+}
 body {
     margin: 0;
     box-sizing: border-box;
@@ -8,41 +10,50 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 10px;
-    justify-content: first baseline;
 }
 
 .header {
     background-color: #1f2937;
     color: #f9faf8;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 50px;
+    padding: 0px;
 
 }
 
 .hero {
     display:flex;
     justify-content: space-between;
+    margin: 50px;
+    margin-top: 0;
     
 }
 
 .h-middle {
+    margin: 0px;
     font-size: 48px;
     font-weight: 900;
 }
+
+.h-main {
+    display: flex;
+    flex-direction: row;
+}
+
 .second, .header-links {
     font-size: 18px;
 }
 
 .Logo {
     font-size: 24px;
-    align-self: center;
+}
+
+.header-links {
+    margin-top: 0;
 }
 
 .image {
     background-color: #e5e7eb;
-    height: 150px;
+    height: 50px;
+    width: 150px;
     color: #1f2937;
     display: flex;
     justify-content: center;
@@ -84,18 +95,29 @@ ul {
     height: 150px;
     width: 150px;
     border-radius: 10px;
+    
 }
 
 .container {
     display: flex;
-    gap: px;
     justify-content: center;
     padding: 50px;
     gap: 10px;
+    flex-grow: 0;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    width: 150px;
 }
 
 .text {
+    display: flex;
     text-align: center;
+    flex-grow: 0;
 }
 
 .quote {

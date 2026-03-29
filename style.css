@@ -79,11 +79,9 @@ ul {
 }
 
 .sign-up {
-    padding: 25px;
+    padding: 50px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
 }
 
 .upper {
@@ -140,6 +138,10 @@ ul {
 .auother {
     text-align: end;
     font-weight: bold;
+}
+
+.s-up-main {
+    font-weight: 900;
 }
 
 .footer {
